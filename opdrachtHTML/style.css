@@ -1,0 +1,246 @@
+
+body{
+    background-color: #a3cd9e;
+    background-size: cover;
+    margin: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar{
+    background-color: #35635b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+   
+}
+.title{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    color: #e5f1e3;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 40%;
+}
+
+#icon{
+    height: 30px;
+    width: 30px;
+    margin: 20px;
+}
+
+.nav{
+    width: 60%;
+}
+.nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.nav a{
+    text-decoration: none;
+    color: #e5f1e3;
+    font-size: 20px;
+}
+.nav a:hover{
+    color:#a3cd9e;
+}
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+}   
+.sidebar{
+    background-color:#35635b;
+    width: 30%;
+    height: 700px;
+}
+.sidebar ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-inline-start: 0;
+    
+}
+.sidebar li{
+    background-color:#e5f1e3;
+    color:#35635b;
+    margin: 30px auto;
+    width: 80%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.content{
+    width: 60%;
+    margin: 20px 10px ;
+    border: 20px solid #a3cd9e;
+    border-radius: 15px;
+}
+table{
+    width: 100%;
+    background-color: #35635b;
+    border-collapse: collapse;
+    border: 10px solid #35635b;
+}
+th, td{
+    border: 2px solid #e5f1e3;
+    padding: 5px;
+    
+}
+td{
+    color: #a3cd9e;
+}
+td a{
+    color: #e5f1e3;
+}
+th{
+    color: #e5f1e3;
+    font-size: 25px;
+}
+th:nth-child(1), td:nth-child(1){
+    text-align: center;
+}
+table img{
+    height: 100px;
+    width: 100px;
+    object-fit:cover;
+    margin: 0 auto;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+footer{
+    position: sticky;
+    bottom: 0%;
+    width: 100%;
+    background-color: #35635b;
+    display: flex;
+    justify-content: space-evenly;
+    color: #a3cd9e;
+}
+footer ul{
+    width: 20%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer h5{
+    width: 40%;
+    text-align: end;
+}
+/*#title{
+    color: #e5f1e3;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 40%;
+
+}
+#navbar{
+    width: 60%;
+    color: #e5f1e3;
+    list-style: none;
+    font-size: 30px;
+}
+#nav{
+    display: flex;
+    justify-content: right;
+    font-size: 25px;   
+}
+#nav>li{
+    margin-right: 90px;
+    
+}
+#nav>li>a{
+    text-align:end;
+    text-decoration: none;
+    color: #e5f1e3;
+}
+
+li{
+    list-style: none;
+    color: #35635b;
+}
+
+
+.container{
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.sidebar{
+    background-color: #529471;
+    width: 40%;
+}
+
+button{
+    height: 50px;
+    width: 300px;
+    background-color: #e5f1e3;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 3px solid #35635b; 
+    margin: 10%;
+    align-content: center;
+
+}
+button li>a{
+    font-size: 50px;
+    color: #35635b;
+}
+button:hover{
+    background-color: #a3cd9e;
+    color: #529471;
+    border: 3px solid black;
+}
+.picture{
+    height: 100px;
+    width: 100px;
+}
+#table th, #table td, #table{
+    border: none;
+    
+   
+}
+#table{
+    background-color: #529471;
+    width: 100%;
+    margin: 5%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#table th, #table td{
+    border-right: 3px solid #35635b;
+
+    border-bottom: 3px solid #35635b;
+}
+.container{
+    margin: 30px;
+    margin-top: 50px;
+    display: flex;
+
+}
+footer{
+    background-color: #35635b;
+    color: #e5f1e3;
+    width: 100% !important;
+    position: relative;
+    bottom: 0px;
+}
+footer.container>li>a{
+    text-align:end;
+    text-decoration: none;
+    color: #e5f1e3;
+}*/
